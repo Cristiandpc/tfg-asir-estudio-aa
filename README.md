@@ -2,7 +2,7 @@
 
 **Diseño y Despliegue de la Infraestructura de Red, Almacenamiento y Servicios Centralizados para un Estudio de Desarrollo de Videojuegos.**
 
-Integrantes: Cristian De Paz Comendador · Alejandro Martínez Vallejo
+Integrantes: Cristian De Paz Comendador · Álex Martínez Vallejo
 Curso 2026/2027 – 2º ASIR
 
 Este repositorio contiene la parte práctica del proyecto: configuraciones, scripts, ficheros de despliegue y capturas de las pruebas. La memoria se redacta aparte (Google Drive).
