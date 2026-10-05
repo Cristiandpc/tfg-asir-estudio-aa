@@ -1,0 +1,31 @@
+# Secretos
+.env
+*.key
+*privatekey*
+*.pem
+secrets/
+
+# Máquinas virtuales e imágenes (demasiado grandes para GitHub)
+*.ova
+*.ovf
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.iso
+
+# Vídeos (se sube solo el enlace)
+*.mp4
+*.mkv
+*.mov
+
+# Copias y volcados reales
+*.sql
+*.sql.gz
+*.tar.gz
+
+# Sistema
+Thumbs.db
+.DS_Store
+desktop.ini
+~$*
