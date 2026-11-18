@@ -1,0 +1,9 @@
+# Proteccion frente a fuerza bruta - R10F02 (srv-servicios)
+[DEFAULT]
+bantime  = 10m
+findtime = 10m
+maxretry = 3
+
+[sshd]
+enabled = true
+port    = ssh

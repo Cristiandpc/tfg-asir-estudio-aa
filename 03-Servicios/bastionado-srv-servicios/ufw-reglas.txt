@@ -1,0 +1,15 @@
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    10.0.2.0/24                # SSH laboratorio (NAT VirtualBox)
+22/tcp                     ALLOW IN    10.10.200.0/24             # SSH VPN admin
+445/tcp                    ALLOW IN    10.10.10.0/24              # Samba
+445/tcp                    ALLOW IN    10.10.20.0/24              # Samba
+445/tcp                    ALLOW IN    10.10.30.0/24              # Samba
+445/tcp                    ALLOW IN    10.10.200.0/24             # Samba
+2049/tcp                   ALLOW IN    10.10.10.0/24              # NFS solo VLAN 10
+
